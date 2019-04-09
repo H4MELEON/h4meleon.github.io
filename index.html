@@ -26,20 +26,20 @@
             height: 350px;
             border-radius: 50%;
             margin: auto;
+            transition: 3s ease-in-out;
+        }
+        .header_img:hover {
+            transform: rotate(1080deg);
         }
 
         .header_h2 {
             font-family: russo one;
         }
 
-        .nav {
-            display: inline-block;
-            margin: 10px 0;
-        }
-
         .link {
+            display: inline-block;
             background-color: rgba(173, 255, 47, 50%);
-            margin: 20px 10px;
+            margin-bottom: 10px;
             border-radius: 30%;
             padding: 10px;
             text-decoration: none;
@@ -52,15 +52,6 @@
 
         .link:hover {
             background-color: rgba(128, 196, 27, 0.5);
-            margin: 0 10px;
-            border-radius: 30%;
-            padding: 10px;
-            text-decoration: none;
-            color: black;
-            font-family: baloo chettan;
-            font-size: 1.4rem;
-            transition: 0.5s;
-            border: black 1px solid;
         }
 
         .art1 {
@@ -72,11 +63,7 @@
         }
 
         .art1:hover {
-            border: 2px dotted black;
             background-color: rgba(255, 148, 0, 40%);
-            padding: 10px;
-            margin: 10px;
-            transition: 0.5s;
         }
 
         .art2 {
@@ -88,11 +75,7 @@
         }
 
         .art2:hover {
-            border: 2px dotted black;
             background-color: rgba(33, 17, 255, 40%);
-            padding: 10px;
-            margin: 10px;
-            transition: 0.5s;
         }
 
         .art_h2 {
@@ -162,6 +145,24 @@
             display: block;
             height: 100%;
         }
+
+        .link_tier2 {
+            display: inline-block;
+            background-color: rgba(173, 255, 47, 50%);
+            margin-bottom: 10px;
+            border-radius: 30%;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            font-family: istok web;
+            font-size: 1.4rem;
+            transition: 0.5s;
+            border: black 1px solid;
+            font-weight: 600;
+        }
+        .link_tier2:hover {
+            background-color: rgba(91, 136, 24, 0.5);
+        }
     </style>
 </head>
 
@@ -179,6 +180,8 @@
             <a href="#art4" class="link">Celeste</a>
             <a href="#art5" class="link">The Messenger</a>
             <a href="#art6" class="link">Portal 2</a>
+            <br>
+            <a href="gallery.html" class="link_tier2">Галерея</a>
         </nav>
     </header>
 
