@@ -65,6 +65,7 @@
         }
 
         .pic5 {
+            border: 6px solid black;
             background: url("https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=620&q=80") 50% / cover no-repeat;
         }
 
@@ -74,6 +75,13 @@
 
         .pic5-1 {
             position: absolute;
+            transition: 15s;
+            background: url("https://h4meleon.github.io/rocket.png") 50% / cover no-repeat;
+            width: 300px;
+            height: 300px;
+        }
+        .pic5-1:hover {
+            transform: scale(0.01) rotate(-7200deg);
         }
 
         .pic6 {
@@ -114,7 +122,7 @@
         </div>
 
         <div class="img pic5">
-            <img class="pic5-1" src="http://www.clipartbest.com/cliparts/KTj/ekz/KTjekzggc.gif">
+            <div class="pic5-1"></div>
         </div>
 
         <div class="img pic6">
