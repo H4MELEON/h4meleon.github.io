@@ -23,70 +23,76 @@
             width: 300px;
             height: 300px;
             margin: 50px;
-            border: 4px double black;
+            border: 4px solid black;
         }
 
         .pic1 {
             background: url("https://images.unsplash.com/photo-1554692918-08fa0fdc9db3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") 50% / cover no-repeat;
         }
+
         .pic1:hover {
-            transform: scale(0.3) rotate(36000deg);
-            border: 2px solid black;
+            transform: scale(1.3) rotate(720deg);
+            border: 4px double black;
         }
 
         .pic2 {
             background: url("https://images.unsplash.com/photo-1554635333-e6fa2850add0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80") 50% / cover no-repeat;
             border-radius: 50%;
         }
+
         .pic2:hover {
             transform: scale(1.3) rotate(-360deg);
-            border: 2px solid black;
+            border: 2px dotted black;
             border-radius: 10%;
         }
 
         .pic3 {
-            background: url() 50% / cover no-repeat;
-            transform: rotate(45deg);
+            background: url("https://images.unsplash.com/photo-1554369921-3ef0686537f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") 50% / cover no-repeat;
         }
+
         .pic3:hover {
-            transform: scale(0.8) rotate(360deg);
+            transform: translate(50px, -50px) rotate(720deg);
+            border: 2px outset black;
         }
 
         .pic4 {
             background: url() 50% / cover no-repeat;
         }
-        .pic4:hover {
 
+        .pic4:hover {
+            transform: translate(-50px, 50px) rotate(-720deg);
+            border: 2px inset black;
         }
 
         .pic5 {
-            background: url() 50% / cover no-repeat;
+            background: url("https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=620&q=80") 50% / cover no-repeat;
         }
-        .pic5:hover {
 
+        .pic5:hover {
+            transform: scale(3) translate(250px, -80px);
+        }
+
+        .pic5-1 {
+            position: absolute;
         }
 
         .pic6 {
             background: url() 50% / cover no-repeat;
         }
-        .pic6:hover {
 
-        }
+        .pic6:hover {}
 
         .pic7 {
             background: url() 50% / cover no-repeat;
         }
-        .pic7:hover {
 
-        }
+        .pic7:hover {}
 
         .pic8 {
             background: url() 50% / cover no-repeat;
         }
-        .pic8:hover {
 
-        }
-
+        .pic8:hover {}
     </style>
 </head>
 
@@ -103,19 +109,20 @@
 
         <div class="img pic3">
         </div>
-        
+
         <div class="img pic4">
         </div>
-        
+
         <div class="img pic5">
+            <img class="pic5-1" src="http://www.clipartbest.com/cliparts/KTj/ekz/KTjekzggc.gif">
         </div>
-        
+
         <div class="img pic6">
         </div>
-        
+
         <div class="img pic7">
         </div>
-        
+
         <div class="img pic8">
         </div>
     </main>
