@@ -8,27 +8,85 @@
     <title>Галерея</title>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Russo+One');
-        body {
-            padding-left: 50px;
-        }
+
         h1 {
             text-align: center;
             font-weight: 400;
             font-size: 2rem;
             font-family: russo one;
         }
-        img {
-            transition: 5s ease-in-out;
+
+        .img {
+            display: inline-block;
+            transition: 3s ease-in-out;
             border-radius: 10%;
             width: 300px;
             height: 300px;
             margin: 50px;
             border: 4px double black;
         }
-        img:hover {
-            transform: scale(0.08) rotate(3600deg);
+
+        .pic1 {
+            background: url("https://images.unsplash.com/photo-1554692918-08fa0fdc9db3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") 50% / cover no-repeat;
+        }
+        .pic1:hover {
+            transform: scale(1.3) rotate(360deg);
             border: 2px solid black;
         }
+
+        .pic2 {
+            background: url("https://images.unsplash.com/photo-1554635333-e6fa2850add0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80") 50% / cover no-repeat;
+            border-radius: 50%;
+        }
+        .pic2:hover {
+            transform: scale(1.3) rotate(-360deg);
+            border: 2px solid black;
+            border-radius: 10%;
+        }
+
+        .pic3 {
+            background: url() 50% / cover no-repeat;
+            transform: rotate(45deg);
+        }
+        .pic3:hover {
+            transform: scale(0.8) rotate(360deg);
+        }
+
+        .pic4 {
+            background: url() 50% / cover no-repeat;
+        }
+        .pic4:hover {
+
+        }
+
+        .pic5 {
+            background: url() 50% / cover no-repeat;
+        }
+        .pic5:hover {
+
+        }
+
+        .pic6 {
+            background: url() 50% / cover no-repeat;
+        }
+        .pic6:hover {
+
+        }
+
+        .pic7 {
+            background: url() 50% / cover no-repeat;
+        }
+        .pic7:hover {
+
+        }
+
+        .pic8 {
+            background: url() 50% / cover no-repeat;
+        }
+        .pic8:hover {
+
+        }
+
     </style>
 </head>
 
@@ -37,8 +95,29 @@
         <h1>Галерея красивых картинок</h1>
     </header>
     <main>
-        <img src="https://images.unsplash.com/photo-1553531768-c3d6cfd10eeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80">
-        <img src="https://images.unsplash.com/photo-1554692918-08fa0fdc9db3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+        <div class="img pic1">
+        </div>
+
+        <div class="img pic2">
+        </div>
+
+        <div class="img pic3">
+        </div>
+        
+        <div class="img pic4">
+        </div>
+        
+        <div class="img pic5">
+        </div>
+        
+        <div class="img pic6">
+        </div>
+        
+        <div class="img pic7">
+        </div>
+        
+        <div class="img pic8">
+        </div>
     </main>
     <footer>
 
