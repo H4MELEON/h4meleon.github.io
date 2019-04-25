@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Сможешь? - повтори!</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Oswald');
+
+        .main_pages {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .main_header {
+            position: relative;
+        }
+
+        nav {
+            position: absolute;
+            top: 750px;
+            left: 400px;
+        }
+
+        .link {
+            display: inline-block;
+            width: 300px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.1);
+            font-size: 2rem;
+            text-decoration: none;
+            color: white;
+            border-radius: 20%;
+            border: black solid 2px;
+            transition: 1s;
+            font-family: 'Oswald', sans-serif;
+            margin: 0 10px;
+        }
+        .link:hover {
+            background: rgba(255, 196, 0, 0.7);
+        }
+        .header_img {
+            width: 50%;
+            position: absolute;
+            left: 460px;
+            top: 60px;
+            border: solid 5px black;
+            border-radius: 10%;
+            background: rgba(54, 39, 39, 0.3);
+            transition: 3s;
+        }
+        .header_img:hover {
+            transform: scale(1.19);
+        }
+    </style>
+</head>
+
+<body class="main_pages">
+    <header class="main_pages main_header">
+        <video src="header_video.mp4" wdith="100%" loop autoplay muted></video>
+        <h1></h1>
+        <nav>
+            <a class="link" href="">Ссылка 1</a>
+            <a class="link" href="">Ссылка 2</a>
+            <a class="link" href="">Ссылка 3</a>
+        </nav>
+        <img src="embl_itog.png" alt="logo" class="header_img">
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
