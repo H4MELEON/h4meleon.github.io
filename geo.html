@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEB. SVG. Здравствуй, геометрия!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Russo+One|Istok+Web');
+        svg {
+            display: inline-block;
+            margin: 10px;
+        }
+        h1 {
+            font-family: russo one;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Практика 1</h1>
+    <svg width="600px" height="600px" viewbox="0 0 600 500">
+        <title>House</title>
+        <ellipse cx="250" cy="198" rx="150" ry="100" fill="red" stroke="black" stroke-width="4"></ellipse>
+        <rect x="100" y="198" width="300" height="300" fill="rgb(133, 90, 11)" stroke="black" stroke-width="4"></rect>
+        <rect x="125" y="248" width="100" height="100" fill="rgb(13, 132, 211)" stroke="black"></rect>
+        <rect x="275" y="248" width="100" height="100" fill="rgb(13, 132, 211)" stroke="black"></rect>
+        <rect x="475" y="300" width="50" height="200" fill="rgb(77, 51, 18)" stroke="black" stroke-width="3"></rect>
+        <circle cx="500" cy="300" r="75" fill="green" stroke="black"></circle>
+        <circle cx="600" cy="-50" r="100" fill="yellow" stroke="black"></circle>
+    </svg>
+    <h1>Практика 2</h1>
+    <svg width="600px" height="450px" viewbox="0 0 400 300">
+        <title>Bike</title>
+        <circle cx="100" cy="248" r="50" stroke="black" stroke-width="4" fill="none"></circle>
+        <line y1="248" y2="248" x1="50" x2="150" stroke="black" stroke-width="4"></line>
+        <line x1="100" x2="100" y1="198" y2="298" stroke="black" stroke-width="4"></line>
+
+        <circle cx="300" cy="248" r="50" stroke="black" stroke-width="4" fill="none"></circle>
+        <line y1="248" y2="248" x1="250" x2="350" stroke="black" stroke-width="4"></line>
+        <line x1="300" x2="300" y1="198" y2="298" stroke="black" stroke-width="4"></line>
+        
+        <path d="M150,165 L170,165 L210,238" stroke-width="6" stroke="rgb(27, 26, 25)" fill="none"></path>
+
+        <path d="M300,248 L285,108 L250,98" stroke-width="6" stroke="black" fill="none"></path>
+        <path d="M100,248 L200,238 L285,175 L170,185 Z M200,238 L170,185 L160,175 L140,175" stroke-width="6" stroke="black" fill="none"></path>
+        <circle cx="200" cy="238" r="20" fill="white" stroke="black" stroke-width="4"></circle>
+
+        <path d="M150,165 L210,238 Z M150,168 L208,55 M195,75 L260,93" stroke-width="6" stroke="rgb(51, 49, 46)" fill="none"></path>
+        <circle cx="223" cy="30" r="27" stroke-width="6" stroke="rgb(51, 49, 46)" fill="none"></circle>
+    </svg>
+
+    <svg width="300px" height="500px" viewbox="0 0 300 500">
+        <title>Watch</title>
+        <rect x="10" y="10" width="280" height="80" fill="rgb(109, 68, 27)" stroke="black" stroke-width="4"></rect>
+        <rect x="10" y="400" width="280" height="80" fill="rgb(109, 68, 27)" stroke="black" stroke-width="4"></rect>
+        <path d="M20,90 L140,230 L140,270 L20,400 M280,90 L160,230 L160,270 L280,400" stroke-width="6" stroke="black" fill="none"></path>
+    </svg>
+
+    <svg width="750px" height="45s0px" viewbox="0 0 500 300">
+        <title>Pyramid</title>
+        <path d="M6,294 L306,294 L206,6 Z" stroke-width="6" stroke="black" fill="rgb(160, 146, 17)"></path>
+        <path d="M306,294 L476,204 L210,6 Z" stroke-width="6" stroke="black" fill="rgb(107, 98, 16)"></path>
+    </svg>
+
+    <svg width="600px" height="200px" viewbox="0 0 300 100">
+        <title>Symbols</title>
+        <path d="M8,77 L33,97 L92,18 L82,3 L33,77 L21,67 Z" stroke-width="3" stroke="black" fill="green"></path>
+        <path d="M103,90 L110,97 L150,60 L190,97 L197,90 L160,50 L197,10 L190,3 L150,40 L110,3 L103,10 L140,50 Z" stroke-width="3" stroke="black" fill="red"></path>
+        <path d="M203,3 L297,3 L297,23 L223,77 L297,77 L297,97 L203,97 L203,77 L277,23 L203,23 Z" stroke-width="3" stroke="black" fill="rgb(163, 131, 24)"></path>
+    </svg>
+    <h1>Практика 3</h1>
+    <svg width="600px" height="800px" viewbox="0 0 306 400">
+        <title>Mill</title>
+        <rect x="3" y="297" width="300" height="100" fill="rgb(146, 93, 24)" stroke="black" stroke-width="5"></rect>
+        <polygon points="3,297 133,107 173,107 303,297" fill="rgb(146, 93, 24)" stroke="black" stroke-width="5"></polygon>
+        <circle cx="153" cy="127" r="15" fill="rgb(172, 115, 41)" stroke="black" stroke-width="4"></circle>
+        <rect x="23" y="317" width="50" height="50" fill="rgb(122, 89, 38)" stroke="black" stroke-width="3"></rect>
+        <rect x="233" y="317" width="50" height="50" fill="rgb(122, 89, 38)" stroke="black" stroke-width="3"></rect>
+        <path d="M133,399 L133,340 L143,330 L163,330 L173,340 L173,399" fill="black" stroke="black"/>
+        <g>
+            <polygon points="153,112 168,12 138,12" fill="rgb(211, 147, 51)" stroke="black" stroke-width="5"></polygon>
+            <polygon points="168,127 268,142 268,112" fill="rgb(211, 147, 51)" stroke="black" stroke-width="5"></polygon>
+            <polygon points="153,142 168,242 138,242" fill="rgb(211, 147, 51)" stroke="black" stroke-width="5"></polygon>
+            <polygon points="138,127 38,142 38,112" fill="rgb(211, 147, 51)" stroke="black" stroke-width="5"></polygon>
+            <animateTransform 
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 153 127"
+                to="3600 153 127"
+                dur="10s"
+                begin="mill.mousemove"
+                restart="whenNotActive"
+                fill="freeze"
+            />      
+        </g>
+        <rect x="0" y="0" width="306" height="400" fill="rgba(0,0,0,0.001)" id="mill"/>
+    </svg>
+
+    <svg width="1000px" height="800px" viewbox="0 0 500 400">
+        <title>Car</title>
+        <rect x="1" y="1" width="498" height="150" stroke-width="2" stroke="black" fill="blue"></rect>
+        <rect x="1" y="151" width="498" height="248" stroke-width="2" stroke="black" fill="green"></rect>
+        <polygon points="2,200 80,200 200,300 300,300 420,200 498,200 498,300 420,300 300,398 200,398 80,300 2,300" stroke-width="3" stroke="black" fill="rgb(124, 122, 19)" />
+        <g id="car">
+            <polygon points="12,220 22,220 32,200 62,200 72,220 82,220 82,240 12,240" stroke-width="4" stroke="black" fill="red" />
+            <polygon points="42,205 42,215 26,215 30,205" stroke-width="2" stroke="black" fill="rgb(0, 119, 255)"></polygon>
+            <polygon points="52,205 52,215 68,215 64,205" stroke-width="2" stroke="black" fill="rgb(0, 119, 255)"></polygon>
+            <g id="wheel1">
+                <circle cx="30" cy="240" r="13" stroke="black" stroke-width="2"></circle>
+                <circle cx="30" cy="240" r="10" fill="grey" stroke="black" stroke-width="2"></circle>
+                <circle cx="24" cy="240" r="2"></circle>
+                <circle cx="36" cy="240" r="2"></circle>
+                <circle cx="30" cy="246" r="2"></circle>
+                <circle cx="30" cy="234" r="2"></circle>
+            </g>
+            <g id="wheel2">
+                <circle cx="64" cy="240" r="13" stroke="black" stroke-width="2"></circle>
+                <circle cx="64" cy="240" r="10" fill="grey" stroke="black" stroke-width="2"></circle>
+                <circle cx="58" cy="240" r="2"></circle>
+                <circle cx="70" cy="240" r="2"></circle>
+                <circle cx="64" cy="246" r="2"></circle>
+                <circle cx="64" cy="234" r="2"></circle>
+            </g>
+        </g>
+        <animateMotion id="car_road"
+            xlink:href="#car" 
+            path="M0,0 L20,0 L150,100 L250,100 L380,0 L400,0"
+            begin="car_switch.mouseover" 
+            dur="6s" 
+            fill="freeze"
+            restart="whenNotActive">
+        </animateMotion>
+        <animateTransform
+            xlink:href="#wheel1" 
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            from="0 30 240"
+            to="3600 30 240"
+            dur="6s"
+            begin="car_road.begin"
+            restart="whenNotActive"
+            fill="freeze"
+        />
+        <animateTransform
+            xlink:href="#wheel2" 
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            from="0 64 240"
+            to="3600 64 240"
+            dur="6s"
+            begin="car_road.begin"
+            restart="whenNotActive"
+            fill="freeze"
+        />
+        <rect x="0" y="0" width="500" height="400" fill="rgba(0,0,0,0.001)" id="car_switch"/> 
+    </svg>
+
+    <svg width="1200px" height="800px" viewbox="0 0 400 200">
+        <title>Lines</title>
+        <line x1="100" x2="100" y1="20" y2="180" stroke="black" stroke-width="5">
+            <animate attributeType="XML"
+                attributeName="x1"
+                from="100" to="143"
+                dur="5s"
+                begin="lines.mousedown"
+                id="mark"
+                fill="freeze"
+                restart="whenNotActive">
+            </animate>
+            <animate attributeType="XML"
+                attributeName="x2"
+                from="100" to="257"
+                dur="5s"
+                begin="mark.begin"
+                fill="freeze"
+                restart="whenNotActive"/>
+        </line>
+        <line x1="200" x2="200" y1="20" y2="180" stroke="black" stroke-width="5">
+            <animate attributeType="XML"
+                attributeName="stroke-width"
+                from="5" to="0"
+                dur="5s"
+                begin="mark.begin"
+                fill="freeze"
+                restart="whenNotActive"/>
+        </line>
+        <line x1="300" x2="300" y1="20" y2="180" stroke="black" stroke-width="5">
+            <animate attributeType="XML"
+                attributeName="x1"
+                from="300" to="257"
+                dur="5s"
+                begin="mark.begin"
+                fill="freeze"
+                restart="whenNotActive"/>
+            <animate attributeType="XML"
+                attributeName="x2"
+                from="300" to="143"
+                dur="5s"
+                begin="mark.begin"
+                fill="freeze"
+                restart="whenNotActive"/>
+        </line> 
+        <rect x="0" y="0" width="400" height="200" fill="rgba(0,0,0,0.001)" id="lines">
+    </svg>
+</body>
+  
+</html>

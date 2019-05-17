@@ -5,183 +5,332 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Разработка макета</title>
+    <title>Даёшь адаптивность!</title>
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Oswald|Comfortaa|Ubuntu+Condensed');
+        @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 
         body {
+            background-color: rgb(192, 192, 192);
+            font-size: 1.8rem;
+            font-family: 'fira sans';
             margin: 0;
         }
 
-        .header_block {
-            padding: 10px;
-            border: 3px solid black;
-            background: rgb(168, 168, 168);
-        }
-
-        .header_h {
-            font-family: Oswald;
-            font-size: 3.5rem;
+        h1 {
             text-align: center;
         }
 
-        .header_img {
-            width: 100%;
-        }
-
-        .main_nav {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
+        h2 {
+            text-align: center;
         }
 
         .link {
-            display: inline-block;
-            background: rgb(143, 132, 132);
-            margin: 5px;
-            font-size: 2rem;
-            border: 2px dotted black;
-            border-radius: 15px;
-            transition: 1s;
-        }
-
-        .link:hover {
-            border: 4px solid black;
-            background: rgb(88, 78, 78);
-        }
-
-        .link:active {
-            background: rgb(49, 44, 44);
-        }
-
-        .sublink {
-            display: inline-block;
             text-decoration: none;
+            margin: 5px;
+            border: 2px solid black;
             color: black;
-            padding: 15px;
-            width: 200px;
+            display: block;
             text-align: center;
-            font-family: Oswald;
+            background-color: rgb(221, 221, 221);
         }
 
-        .main_box {
-            background: rgb(138, 138, 138);
+        .section {
+            background-color: rgb(221, 221, 221);
             border: 3px solid black;
-        }
-
-        .main_h {
-            font-family: Comfortaa;
-            font-size: 2.5rem;
-            text-align: center;
-        }
-
-        .container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+            padding: 1px;
+            margin: 1px;
         }
 
         .art {
-            border-radius: 5px;
-            border: 2px solid black;
-            width: 500px;
-            margin: 20px;
-            transition: 1s;
+            border: 1px solid black;
+            padding: 1px;
+            margin: 1px;
         }
 
-        .art:hover {
-            background: rgb(179, 179, 179)
-        }
-
-        .art_img {
-            object-fit: cover;
+        .img_art {
             width: 100%;
-            height: 300px;
-        }
-
-        .art_h {
-            margin: 10px;
-            text-align: center;
-            font-size: 1.8rem;
-            font-family: Comfortaa;
-        }
-
-        .art_p {
-            margin: 10px;
-            font-family: Ubuntu Condensed;
-            font-size: 1.5rem;
-        }
-
-        .footer_block {
-            padding: 5px;
-            background: black;
+            object-fit: cover;
         }
 
         .footer_p {
-            color: whitesmoke;
-            font-family: Ubuntu Condensed;
-            font-size: 1.25rem;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            body {
+                font-size: 2.2rem;
+            }
+
+            nav {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+
+            .link {
+                width: 45%;
+            }
+        }
+
+        @media (min-width: 1366px) {
+            body {
+                font-size: 2.6rem;
+            }
+
+            .section {
+                background-color: rgb(192, 192, 192);
+                transition: 0.5s
+            }
+
+            .section:hover {
+                background-color: rgb(221, 221, 221);
+            }
+
+            .art {
+                width: 50%;
+                margin: 3px;
+                padding: 2px;
+                background-color: rgb(192, 192, 192);
+                transition: 0.5s
+            }
+
+            .art:hover {
+                background-color: rgb(221, 221, 221);
+            }
+
+            .arts {
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .img_art {
+                width: 100%;
+                object-fit: cover;
+                height: 500px;
+            }
+
+            .link {
+                width: 28%;
+                transition: 1s;
+            }
+
+            .link:hover {
+                background-color: rgb(136, 136, 136);
+            }
+
+            .link:active {
+                background-color: rgb(88, 88, 88);
+            }
         }
     </style>
 </head>
 
 <body>
-    <header class="header_block">
-        <h1 class="header_h">Бюро хороших идей</h1>
-        <img class="header_img"
-            src="https://1.downloader.disk.yandex.ru/preview/1c0ac7dec8c07b501c5cd520d4a0bffd8780b5542987e78a16824bb5a88b8e05/inf/VfrKkos1WSzVs-j90gCy1XKAYXBLqzuasezMUJPtcFGG85PKZdsctz1aRYGjG5IKduyqcibrdmjE7n-2nvY4tQ%3D%3D?uid=257642793&filename=embl.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1903x938"
-            alt="embl">
-        <h2 class="header_h" style="font-size: 2.5rem">Придумаем ваши идеи за вас ;)</h2>
-        <nav class="main_nav">
-            <ul>
-                <li class="link"><a class="sublink" href="#">Главная</a></li>
-                <li class="link"><a class="sublink" href="#about_us">О нас</a></li>
-                <li class="link"><a class="sublink" href="#products">Продукты</a></li>
-                <li class="link"><a class="sublink" href="#contacts">Контакты</a></li>
-            </ul>
+    <header>
+        <h1>
+            Новости на интересные темы
+        </h1>
+        <h2>Содержание</h2>
+        <nav>
+            <a class="link" href="#section_1">Робототехника</a>
+            <a class="link" href="#section_2">Космос</a>
+            <a class="link" href="#section_3">Компьютерные игры</a>
         </nav>
     </header>
-    <main class="main_box" id="about_us">
-        <h2 class="main_h">О нас</h2>
-        <div class="container">
-            <article class="art">
-                <img class="art_img" src="https://cdn.pixabay.com/photo/2018/11/25/18/15/prague-3838029_960_720.jpg"
-                    alt="ancient_clock">
-                <h3 class="art_h">Придумываем хорошие идеи с начала времён!</h3>
-                <p class="art_p">Практически любая идея во все времена принадлежит нам. С незапамятных дней мы прилагаем
-                    максимальные усилия
-                    для того, чтобы человечество получало как можно больше хороших идей. И хотя мы не благотоворительная
-                    орагнизация, но работаем всё равно в основном бесплатно и тайно.</p>
-            </article>
-            <article class="art">
-                <img class="art_img" src="https://cdn.pixabay.com/photo/2017/01/13/18/56/feedback-1977987_960_720.jpg"
-                    alt="like">
-                <h3 class="art_h">Ни одного негативного отзыва</h3>
-                <p class="art_p">Каждая наша идея продумывается до мелочей на комплексе суперкомьютеров, а потому можете
-                    не
-                    бояться за судьбу своей планеты. За все века нашей деятельности ни один человек не ушёл недовольным
-                    )
-                </p>
-            </article>
-            <article class="art">
-                <img class="art_img"
-                    src="https://cdn.pixabay.com/photo/2017/03/07/13/02/question-mark-2123969_960_720.jpg" alt="ask">
-                <h3 class="art_h">Как получить от нас идею?</h3>
-                <p class="art_p">Никак. Если вдруг наши агенты сочтут нужным, они ретранслируют вам какую-нибудь идею.
-                    Но
-                    это не значит,
-                    что вам следует отчаиваться. Вот одна хорошая и общедоступная идея - стремитесь к совей собственной
-                    цели
-                    и прилагайте максимум усиилий. Удачи вам.</p>
-            </article>
+    <main>
+        <div id="section_1" class="section">
+            <header>
+                <h2>Робототехника</h2>
+            </header>
+            <div class="arts">
+                <article class="art">
+                    <img src="https://robotics.ua/media/news/7393/mit_mini_cheetah_flip_video_360.jpg"
+                        alt="Robot Mini Cheetah" class="img_art">
+                    <header>
+                        <h3>Новый робот-гепард от MIT</h3>
+                    </header>
+                    <p>
+                        Роботизированный гепард MIT Cheetah 3 приобрел нового друга Mini Cheetah. Mini Cheetah намного
+                        меньше, чем последняя версия робота Cheetah, вес
+                        которого составляет 41 кг, что делает его размером с полностью развитую крупную собаку. Mini
+                        Cheetah
+                        весит 20 фунтов (9 кг. Он может, как и его предшественник, бегать по неасфальтированной дороге,
+                        преодолевая препятствия со скоростью 2,45 метра в секунду, его маленький по размеру каркас также
+                        обеспечивает ему впечатляющую маневренность. Навыки включают в себя способность вращаться на
+                        месте,
+                        приземляться в вертикальном положении при падении с высоты, сохранять равновесие при ударе от
+                        человека и подниматься, когда его толкают. Но что наиболее впечатляет, так это то, что он может
+                        выполнить идеальное сальто с места на ровном месте.
+                    </p>
+                    <footer>
+                        <p class="source">Источник - <a
+                                href="https://robotics.ua/news/prototypes/7393-mit_mini_cheetah_flip_video">robotics.ua</a>
+                        </p>
+                    </footer>
+                </article>
+                <article class="art">
+                    <img src="https://s.hi-news.ru/wp-content/uploads/2019/05/soft_robot_one-750x432.jpg"
+                        alt="Robot hose" class="img_art">
+                    <header>
+                        <h3>Робот из душевого шланга</h3>
+                    </header>
+                    <p>
+                        В последнее время сфера технологий отстранилась от создания привычных всем роботов, похожих на
+                        людей
+                        и животных. Теперь исследователям интересны гибкие механизмы, которые благодаря своей
+                        маневренности
+                        способны проникать в труднодоступные места и ползать там, куда обычные роботы бы попросту не
+                        вместились. Недавно сотрудники из Кембриджского университета и их японские коллеги создали
+                        робота
+                        LEeCH, который хоть и создан из обычных душевых шлангов, но демонстрирует удивительную
+                        способность
+                        ползать по вертикальным стенам.
+                    </p>
+                    <footer>
+                        <p class="source">Источник - <a
+                                href="https://hi-news.ru/robots/video-robota-mozhno-sdelat-dazhe-iz-dushevogo-shlanga-i-on-sposoben-polzat-po-stenam.html">hi-news.ru</a>
+                        </p>
+                    </footer>
+                </article>
+            </div>
+        </div>
+
+        <div id="section_2" class="section">
+            <header>
+                <h2>Космос</h2>
+            </header>
+            <div class="arts">
+                <article class="art">
+                    <img src="https://in-space.ru/wp-content/uploads/2019/05/heic1910a-1456x910.jpg"
+                        alt="Galactic destroy" class="img_art">
+                    <header>
+                        <h3>Разрушение галактики</h3>
+                    </header>
+                    <p>
+                        Космический телескоп «Hubble» по-новому взглянул на впечатляющую галактику NGC 4485, которая
+                        была
+                        искривлена ​​и затянута своим более крупным соседом. Гравитация второй галактики нарушила
+                        упорядоченный набор звезд, газа и пыли, породив беспорядочную область новорожденных и горячих
+                        голубых гигантов, хаотических скоплений и потоков.
+                        Галактика NGC 4485 была вовлечена в драматическое гравитационное взаимодействие с большим
+                        галактическим соседом NGC 4490. Обнаруженный на расстоянии около 30 миллионов световых лет от
+                        Земли
+                        в направлении созвездия Гончих псов странный результат взаимодействия галактического дуэта
+                        привел к
+                        появлению в Атласе пекулярных галактик объекта Arp 269.
+                        Оставив за плечами свое максимальное сближение, NGC 4485 и NGC 4490 теперь отходят друг от
+                        друга,
+                        значительно отличаясь от первоначальных структур. Все еще вовлеченная в разрушительный, но
+                        художественный танец, гравитационная сила между ними продолжает искажать каждого из участников
+                        до
+                        неузнаваемости, в то же время создавая условия для огромных областей интенсивного
+                        звездообразования.
+                    </p>
+                    <footer>
+                        <p class="source">Источник - <a
+                                href="https://in-space.ru/hubble-sfotografiroval-krasochnoe-razrushenie-galaktiki/">in-space.ru</a>
+                        </p>
+                    </footer>
+                </article>
+                <article class="art">
+                    <img src="https://www.astronews.ru/news/2019/20190515000443.jpg" alt="Mission DART" class="img_art">
+                    <header>
+                        <h3>Спасти Землю!</h3>
+                    </header>
+                    <p>
+                        Первая в мире планетная оборонная миссия НАСА готовится к запуску в июне 2021 года.
+
+                        Эта миссия, получившая название «Double Asteroid Redirection Test» или просто «DART» («Тест на
+                        перенаправление двойного астероида»), завершится в октябре 2022 года долгожданным ударом по
+                        двойному
+                        астероиду Didymos (Дидимос) диаметром 800 метров. Его спутник S/2003 (65803) 1 имеет диаметр
+                        всего
+                        150 метров. Миссия представляет собой первый выход НАСА за пределы научных и космических
+                        полетов;
+                        вместо этого, эта миссия проверит технологию, которая теоретически может спасти Землю от
+                        опасного
+                        столкновения с угрожающим астероидом.
+                    </p>
+                    <footer>
+                        <p class="source">Источник - <a
+                                href="https://www.astronews.ru/cgi-bin/mng.cgi?page=news&news=20190515000443">www.astronews.ru</a>
+                        </p>
+                    </footer>
+                </article>
+            </div>
+        </div>
+
+        <div id="section_3" class="section">
+            <header>
+                <h2>Компьютерные игры</h2>
+            </header>
+            <div class="arts">
+                <article class="art">
+                    <img src="https://stopga.me/images/news/2019/05/16/normal_jYmcovonSI.jpg" alt="Big bosses"
+                        class="img_art">
+                    <header>
+                        <h3>Sony и Microsoft собираются совместно работать над облачными технологиями и искусственным
+                            интеллектом</h3>
+                    </header>
+                    <p>
+                        Корпорации Sony и Microsoft объявили о сотрудничестве — они займутся разработкой облачных
+                        решений и
+                        технологий в области искусственного интеллекта.
+                        Прежде всего, компании начнут совместно трудиться над облачными технологиями для платформы
+                        Microsoft
+                        Azure. С её помощью Sony и Microsoft намерены поддержать свои сервисы для стриминга игр и
+                        контента.
+                        Также корпорации изучат возможность использования решений на основе дата-центров Azure в
+                        стриминговых сервисах Sony. Как гласит официальный пресс-релиз, работая вместе, компании хотят
+                        улучшить развлекательный «экспириенс» для клиентов по всему миру.
+                        Кроме того, Sony и Microsoft сообщили о коллаборации в сферах искусственного интеллекта и
+                        полупроводников. Компании хотят совместить датчики изображения Sony с ИИ на основе Microsoft
+                        Azure.
+                        Плюс ко всему корпорации исследуют возможность внедрения ИИ-платформы и инструментов Microsoft в
+                        потребительскую продукцию Sony, чтобы обеспечить пользователям «интуитивный и понятный опыт
+                        использования ИИ».
+                    </p>
+                    <footer>
+                        <p class="source">Источник - <a href="https://stopgame.ru/newsdata/38257">stopgame.ru</a></p>
+                    </footer>
+                </article>
+                <article class="art">
+                    <img src="https://stopga.me/images/games/logos/18327/s_t_a_l_k_e_r_2.jpg"
+                        alt="S.T.A.L.K.E.R. 2 logo" class="img_art">
+                    <header>
+                        <h3>Амбициозный S.T.A.L.K.E.R. 2</h3>
+                    </header>
+                    <p>
+                        S.T.A.L.K.E.R. 2 анонсировали ровно год назад. С тех пор информации об игре был самый минимум —
+                        сведения о разработчиках и самом анонсе да недавние официальный арт с музыкальным треком.
+                        Сегодня
+                        появился новый (пускай и скромный) повод для новости!
+
+                        К годовщине анонса глава студии GSC Game World Сергей Григорович оставил в Facebook следующий
+                        пост,
+                        где поведал о большущих амбициях и выразил оптимизм касательно разработки:
+                        <blockquote>
+                            "Год назад я заявил о S.T.A.L.K.E.R. 2, а в начале разработки решил, что должно быть либо
+                            культурное событие, либо никак. Сейчас могу сказать, что мне нравится.
+
+                            И мы не будем в этот раз много говорить, мы делаем. Команда чувствует вашу поддержку, всем
+                            спасибо!"
+                        </blockquote>
+                        Больше, увы, Григорович пока ничем нас не порадовал. Напомним, что S.T.A.L.K.E.R. 2 выйдет не
+                        раньше
+                        2021 года, а по мнению скептически настроенных игроков, задержится ещё на несколько лет сверх
+                        этой
+                        даты.
+                    </p>
+                    <footer>
+                        <p class="source">Источник - <a href="https://stopgame.ru/newsdata/38261">stopgame.ru</a></p>
+                    </footer>
+                </article>
+            </div>
         </div>
     </main>
-    <footer class="footer_block" id="contacts">
-        <p class="footer_p">Наши контакты:</p>
-        <p class="footer_p">Планета Марс, 135 градусов 55 минут северной широты и 150 градусов восточной долготы</p>
-        <br>
-        <p class="footer_p">Наши авторские права охраняются орбитальными плазмеными пушками и законами физики</p>
-        <p class="footer_p">P.S. Передайте наши координаты Илону. Мы очень хотим с ним познакомиться.</p>
+    <footer>
+        <p class="footer_p">Дата создания - 17.05.19</p>
     </footer>
 </body>
 
