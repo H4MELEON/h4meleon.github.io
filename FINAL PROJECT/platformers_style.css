@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Russo+One|Istok+Web');
+
+body {
+    background-color: rgb(206, 206, 206);
+}
+
+.header_h1 {
+    text-align: center;
+    font-family: russo one;
+}
+
+.header_img {
+    background: url("https://cdn.pixabay.com/photo/2018/08/26/08/16/mario-3631666_960_720.png") 50% / cover no-repeat;
+    width: 75vw;
+    height: 50vw;
+    border-radius: 25%;
+    margin: auto;
+    transition: 1.5s ease-in-out;
+}
+
+.header_img:hover {
+    transform: scale(1.15);
+    border-radius: 5%;
+}
+
+.header_h2 {
+    font-family: russo one;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.link {
+    background-color: rgba(173, 255, 47, 50%);
+    margin-bottom: 10px;
+    border-radius: 30%;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: baloo chettan;
+    font-size: 1.4rem;
+    transition: 0.5s;
+    border: black 1px solid;
+}
+
+.link:hover {
+    background-color: rgba(128, 196, 27, 0.5);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main_art {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    transition: 1s;
+}
+
+.art1 {
+    background-color: rgba(255, 148, 0, 40%);
+}
+
+.art2 {
+    background-color: rgba(33, 17, 255, 40%);
+}
+
+.art_h2 {
+    text-align: center;
+    font-family: baloo chettan;
+}
+
+.art_link {
+    color: black;
+    font-weight: 900;
+}
+
+p {
+    font-family: istok web;
+    font-size: 1.2rem;
+}
+
+.art_img {
+    width: 75vw;
+    height: 75vw;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.img1 {
+    background: url("https://sm.ign.com/ign_in/review/h/hollow-kni/hollow-knight-review_3hqg.jpg") 50% / cover no-repeat;
+}
+
+.img2 {
+    background: url("https://stopga.me/images/news/2018/07/10/WXpLaGM1A.jpg") 50% / cover no-repeat;
+}
+
+.img3 {
+    background: url("https://avavatar.ru/images/full/11/0ND21x9QIiYsg5wi.jpg") 50% / cover no-repeat;
+}
+
+.img4 {
+    background: url("https://c.opencritic.com/images/games/5403/XxmnrCI5VZj9dXmUiO.jpg") 50% / cover no-repeat;
+}
+
+.img5 {
+    background: url("https://besthqwallpapers.com/Uploads/25-9-2018/66617/4k-the-messenger-poster-2018-games-action.jpg") 50% / cover no-repeat;
+}
+
+.img6 {
+    background: url("http://s1.picswalls.com/wallpapers/2014/09/22/portal-2-image_044320938_242.jpg") 50% / cover no-repeat;
+}
+
+.easter_egg_link {
+    display: block;
+    height: 100%;
+}
+
+@media (min-width: 1024px) {
+    .link {
+        width: 30vw;
+        padding: 5px;
+    }
+
+    .header_img {
+        width: 35vw;
+        height: 25vw;
+    }
+
+    .main_art {
+        width: 45%;
+    }
+
+    .art1 {
+        border: 2px dotted black;
+        background-color: rgba(51, 30, 1, 0.4);
+    }
+    
+    .art1:hover {
+        background-color: rgba(255, 148, 0, 40%);
+        border: 2px solid black;
+    }
+    
+    .art2 {
+        border: 2px dotted black;
+        background-color: rgba(5, 3, 41, 0.4);
+    }
+    
+    .art2:hover {
+        background-color: rgba(33, 17, 255, 40%);
+        border: 2px solid black;
+    }
+
+    .art_img {
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
+        transition: 1s;
+    }
+
+    .art_img:hover {
+        border-radius: 10%;
+    }
+}
+
+@media (min-width: 1366px) {
+    .main_art {
+        width: 30%;
+    }
+}

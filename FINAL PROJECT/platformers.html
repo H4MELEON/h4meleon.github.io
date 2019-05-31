@@ -7,168 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./platformers_style.css">
     <title>The best platformers</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Russo+One|Istok+Web');
-
-        body {
-            background-color: rgb(206, 206, 206);
-        }
-
-        .header_h1 {
-            text-align: center;
-            font-family: russo one;
-        }
-
-        .header_img {
-            background: url("https://yt3.ggpht.com/a-/AAuE7mCDzQXTZj6J1todYu2phXYWKp6hDNP_Ogex_Q=s900-mo-c-c0xffffffff-rj-k-no") 50% / cover no-repeat;
-            width: 350px;
-            height: 350px;
-            border-radius: 50%;
-            margin: auto;
-            transition: 3s ease-in-out;
-        }
-        .header_img:hover {
-            transform: rotate(1080deg);
-        }
-
-        .header_h2 {
-            font-family: russo one;
-        }
-
-        .link {
-            display: inline-block;
-            background-color: rgba(173, 255, 47, 50%);
-            margin-bottom: 10px;
-            border-radius: 30%;
-            padding: 10px;
-            text-decoration: none;
-            color: black;
-            font-family: baloo chettan;
-            font-size: 1.4rem;
-            transition: 0.5s;
-            border: black 1px solid;
-        }
-
-        .link:hover {
-            background-color: rgba(128, 196, 27, 0.5);
-        }
-
-        .art1 {
-            border: 2px dotted black;
-            background-color: rgba(51, 30, 1, 0.4);
-            padding: 10px;
-            margin: 10px;
-            transition: 0.5s;
-        }
-
-        .art1:hover {
-            background-color: rgba(255, 148, 0, 40%);
-        }
-
-        .art2 {
-            border: 2px dotted black;
-            background-color: rgba(5, 3, 41, 0.4);
-            padding: 10px;
-            margin: 10px;
-            transition: 0.5s;
-        }
-
-        .art2:hover {
-            background-color: rgba(33, 17, 255, 40%);
-        }
-
-        .art_h2 {
-            text-align: center;
-            font-family: baloo chettan;
-        }
-
-        .art_link {
-            color: black;
-            font-weight: 900;
-        }
-
-        p {
-            font-family: istok web;
-            font-size: 1.2rem;
-        }
-
-        .art1_img {
-            background: url("https://sm.ign.com/ign_in/review/h/hollow-kni/hollow-knight-review_3hqg.jpg") 50% / cover no-repeat;
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-            margin: auto;
-        }
-
-        .art2_img {
-            background: url("https://stopga.me/images/news/2018/07/10/WXpLaGM1A.jpg") 50% / cover no-repeat;
-            width: 250px;
-            height: 250px;
-            border-radius: 20%;
-            margin: auto;
-        }
-
-        .art3_img {
-            background: url("https://avavatar.ru/images/full/11/0ND21x9QIiYsg5wi.jpg") 50% / cover no-repeat;
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-            margin: auto;
-        }
-
-        .art4_img {
-            background: url("https://c.opencritic.com/images/games/5403/XxmnrCI5VZj9dXmUiO.jpg") 50% / cover no-repeat;
-            width: 250px;
-            height: 250px;
-            border-radius: 20%;
-            margin: auto;
-        }
-
-        .art5_img {
-            background: url("https://besthqwallpapers.com/Uploads/25-9-2018/66617/4k-the-messenger-poster-2018-games-action.jpg") 50% / cover no-repeat;
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-            margin: auto;
-        }
-
-        .art6_img {
-            background: url("http://s1.picswalls.com/wallpapers/2014/09/22/portal-2-image_044320938_242.jpg") 50% / cover no-repeat;
-            width: 250px;
-            height: 250px;
-            border-radius: 20%;
-            margin: auto;
-        }
-
-        .easter_egg_link {
-            display: block;
-            height: 100%;
-        }
-
-        .link_tier2 {
-            display: inline-block;
-            background-color: rgba(173, 255, 47, 50%);
-            margin-bottom: 10px;
-            border-radius: 30%;
-            padding: 10px;
-            text-decoration: none;
-            color: black;
-            font-family: istok web;
-            font-size: 1.4rem;
-            transition: 0.5s;
-            border: black 1px solid;
-            font-weight: 600;
-        }
-        .link_tier2:hover {
-            background-color: rgba(91, 136, 24, 0.5);
-        }
-    </style>
 </head>
 
 <body>
     <header>
-        
+
         <h1 class="header_h1"><i class="fas fa-gamepad game"></i> Лучшие игры-платформеры ( по мнению автора) )</h1>
         <div class="header_img"></div>
         <h2 class="header_h2">Содержание</h2>
@@ -182,14 +27,14 @@
         </nav>
     </header>
 
-    <main>
-        <article class="art1">
+    <main class="container">
+        <article class="main_art art1">
             <header id="art1">
                 <h2 class="art_h2">
                     Hollow Knight
                 </h2>
             </header>
-            <div class="art1_img">
+            <div class="art_img img1">
                 <a class="easter_egg_link" href="https://www.youtube.com/watch?v=UAO2urG23S4">
                 </a>
             </div>
@@ -212,13 +57,15 @@
             </p>
         </article>
 
-        <article class="art2">
+        <article class="main_art art2">
             <header id="art2">
                 <h2 class="art_h2">
                     Dead Cells
                 </h2>
             </header>
-            <div class="art2_img"><a class="easter_egg_link" href="https://www.youtube.com/watch?v=gX4cGcwmdsY"></a>
+            <div class="art_img img2">
+                <a class="easter_egg_link" href="https://www.youtube.com/watch?v=gX4cGcwmdsY">
+                </a>
             </div>
             <p>
                 <strong>Dead Cells</strong> представляет собой гибрида, который сами разработчики называют
@@ -243,13 +90,13 @@
             </p>
         </article>
 
-        <article class="art1">
+        <article class="main_art art1">
             <header id="art3">
                 <h2 class="art_h2">
                     Ori and the blind forest
                 </h2>
             </header>
-            <div class="art3_img"><a class="easter_egg_link" href="https://www.youtube.com/watch?v=zU3rmggIcpc"></a>
+            <div class="art_img img3"><a class="easter_egg_link" href="https://www.youtube.com/watch?v=zU3rmggIcpc"></a>
             </div>
             <p>
                 <strong>Ori and the blind forest</strong> является более классическим платформером, хотя в ней и есть
@@ -266,13 +113,13 @@
             </p>
         </article>
 
-        <article class="art2">
+        <article class="main_art art2">
             <header id="art4">
                 <h2 class="art_h2">
                     Celeste
                 </h2>
             </header>
-            <div class="art4_img"><a class="easter_egg_link" href="https://www.youtube.com/watch?v=70d9irlxiB4"></a>
+            <div class="art_img img4"><a class="easter_egg_link" href="https://www.youtube.com/watch?v=70d9irlxiB4"></a>
             </div>
             <p>
                 <strong>Celeste</strong> является ещё более классическим представителем жанра платформеров, чем
@@ -296,13 +143,13 @@
             </p>
         </article>
 
-        <article class="art1">
+        <article class="main_art art1">
             <header id="art5">
                 <h2 class="art_h2">
                     The Messenger
                 </h2>
             </header>
-            <div class="art5_img"><a class="easter_egg_link" href="https://www.youtube.com/watch?v=qJf9edBS0TQ"></a>
+            <div class="art_img img5"><a class="easter_egg_link" href="https://www.youtube.com/watch?v=qJf9edBS0TQ"></a>
             </div>
             <p>
                 Продолжаем тенденцию возвращения к истокам. <strong>The Messenger</strong> является не просто
@@ -323,13 +170,13 @@
             </p>
         </article>
 
-        <article class="art2">
+        <article class="main_art art2">
             <header id="art6">
                 <h2 class="art_h2">
                     Portal 2
                 </h2>
             </header>
-            <div class="art6_img"><a class="easter_egg_link" href="https://www.youtube.com/watch?v=vjlG6n2rpsY"></a>
+            <div class="art_img img6"><a class="easter_egg_link" href="https://www.youtube.com/watch?v=vjlG6n2rpsY"></a>
             </div>
             <p>
                 Пора нарушить стройную цепочку стремления к классике! Да-да, платформеры могут быть и трёхмерными, и,
