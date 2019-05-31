@@ -27,7 +27,7 @@ html,body {
 .header_video {
     width: 100%;
     object-fit: cover;
-    height: 93%;
+    height: 400%;
     position: absolute;
     top: 0;
     left: 0;
@@ -145,7 +145,7 @@ nav {
 @media (min-width: 1024px) {
     .header_video {
         width: 100%;
-        height: 101%;
+        height: 110%;
         position: absolute;
         top: 0;
         left: 0;
@@ -189,7 +189,7 @@ nav {
     
     .anim2:hover {
         transform: scale(1.5) rotate(360deg) translate(0, 200px);
-        height: 600px;
+        height: 50vh;
     }
     
     .anim3:hover {
@@ -202,7 +202,7 @@ nav {
     
     .anim2_bottom:hover {
         transform: scale(1.5) rotate(360deg) translate(0, -200px);
-        height: 600px;
+        height: 50vh;
     }
     
     .anim3_bottom:hover {
