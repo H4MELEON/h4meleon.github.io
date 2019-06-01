@@ -126,6 +126,19 @@ p {
     height: 100%;
 }
 
+.go_up {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid black;
+    background-color: rgba(133, 20, 20, 0.75);
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 @media (min-width: 1024px) {
     .link {
         width: 30vw;
