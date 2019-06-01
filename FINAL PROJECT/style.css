@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed|Electrolize');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed|Electrolize|Ubuntu+Condensed');
 
 html,body {
     margin: 0;
@@ -142,6 +142,27 @@ nav {
 .platfromers_page {
     background-color: rgb(80, 80, 80);
     border: 3px solid black;
+}
+
+.footer_block {
+    padding: 5px;
+    background: black;
+}
+
+.footer_p {
+    color: whitesmoke;
+    font-family: 'Ubuntu Condensed';
+    font-size: 1.25rem;
+}
+
+.yes {
+    color: green;
+    text-decoration: none;
+}
+
+.no {
+    color: red;
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {
