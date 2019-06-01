@@ -6,7 +6,7 @@ body {
 
 .header_h1 {
     text-align: center;
-    font-family: russo one;
+    font-family: 'russo one';
 }
 
 .header_img {
@@ -24,7 +24,7 @@ body {
 }
 
 .header_h2 {
-    font-family: russo one;
+    font-family: 'russo one';
     text-align: center;
 }
 
@@ -37,13 +37,13 @@ body {
 .link {
     background-color: rgba(173, 255, 47, 50%);
     margin-bottom: 10px;
-    border-radius: 30%;
+    border-radius: 50px;
     width: 90%;
     text-align: center;
     padding: 10px;
     text-decoration: none;
     color: black;
-    font-family: baloo chettan;
+    font-family: 'baloo chettan';
     font-size: 1.4rem;
     transition: 0.5s;
     border: black 1px solid;
@@ -64,6 +64,7 @@ body {
     padding: 10px;
     margin: 10px;
     transition: 1s;
+    border-radius: 10px;
 }
 
 .art1 {
@@ -76,7 +77,7 @@ body {
 
 .art_h2 {
     text-align: center;
-    font-family: baloo chettan;
+    font-family: 'baloo chettan';
 }
 
 .art_link {
@@ -85,7 +86,7 @@ body {
 }
 
 p {
-    font-family: istok web;
+    font-family: 'istok web';
     font-size: 1.2rem;
 }
 
