@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Russo+One|Istok+Web');
+
+html,body {
+    margin:0;
+    background: black;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_text {
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    font-family: 'russo one';
+    font-size: 5rem;
+    margin: 5px;
+}
+
+@keyframes rainbow {
+    from {color: white;}
+    12.5% {color: red;}
+    25% {color: orange;}
+    37.5% {color: yellow;}
+    50% {color: green;}
+    62.5% {color: aqua}
+    75% {color: blue;}
+    87.5% {color: purple;}
+    to {color: black;}
+}
+
+.yes {
+    animation: rainbow 6s ease-in-out infinite alternate;
+}
+
+.go_back {
+    font-weight: 900;
+    color: white;
+    font-family: 'istok web';
+    font-size: 1.2rem;
+}
