@@ -17,8 +17,8 @@ html,body {
     color: white;
     text-align: center;
     font-family: 'russo one';
-    font-size: 5rem;
-    margin: 5px;
+    font-size: 2rem;
+    margin: 0 3px;
 }
 
 @keyframes rainbow {
@@ -37,9 +37,34 @@ html,body {
     animation: rainbow 6s ease-in-out infinite alternate;
 }
 
+.cry {
+    width: 100%;
+}
+
+.answer_yes {
+    text-decoration: none;
+    color: green;
+}
+
+.answer_no {
+    text-decoration: none;
+    color: red;
+}
+
 .go_back {
     font-weight: 900;
     color: white;
     font-family: 'istok web';
     font-size: 1.2rem;
+}
+
+@media (min-width: 1024px) {
+    .main_text {
+        font-size: 6rem;
+    }
+
+    .cry {
+        width: 50%;
+        margin: auto;
+    }
 }
