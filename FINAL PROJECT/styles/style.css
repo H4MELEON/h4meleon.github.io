@@ -141,7 +141,31 @@ nav {
 
 .platfromers_page {
     background-color: rgb(80, 80, 80);
-    border: 3px solid black;
+    border-top: 3px solid black;
+    padding: 10px;
+}
+
+.platfromers_art {
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(149, 207, 73);
+    padding: 8px;
+    transition: 1s;
+}
+
+.platformers_img {
+    background: url("https://cdn.pixabay.com/photo/2018/08/26/08/16/mario-3631666_960_720.png") 50% / cover no-repeat;
+    width: 60vw;
+    height: 40vw;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.plaftromers_link {
+    display: block;
+    height: 100%;
 }
 
 .footer_block {
@@ -249,6 +273,15 @@ nav {
     
     .anim3_bottom:hover {
         transform: scale(1.5) translate(-400px, -200px)
+    }
+
+    .platfromers_art {
+        background: rgb(56, 73, 33);
+        width: 98%;
+    }
+
+    .platfromers_art:hover {
+        background: rgb(149, 207, 73);
     }
 }
 
