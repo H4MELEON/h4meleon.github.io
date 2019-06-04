@@ -161,6 +161,7 @@ nav {
     height: 40vw;
     border-radius: 10%;
     margin: auto;
+    border: 3px solid black;
 }
 
 .plaftromers_link {
