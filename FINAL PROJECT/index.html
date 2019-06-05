@@ -18,9 +18,14 @@
         <img src="./assets/embl_itog_2.webp" alt="logo" class="header_img">
         <h1 class="name">HamelTech Software</h1>
         <nav>
-            <a class="h link" href="#about_us">О нас</a>
-            <a class="h link" href="#gallery">Галерея</a>
-            <a class="h link" href="#games">Один интересный нам жанр</a>
+            <div class="menu" id="menu">
+                <a class="h link" href="#about_us"><i class="fas fa-address-card"></i> О нас</a>
+                <a class="h link" href="#gallery"><i class="fas fa-images"></i> Галерея</a>
+                <a class="h link" href="#games"><i class="fas fa-gamepad"></i> Один интересный жанр игр</a>
+            </div>
+            
+            <a class="go_up" href="#"><i class="fas fa-arrow-circle-up"></i> Наверх</a>
+            <div id="menu_btn" class="menu_btn"><i class="fas fa-bars"></i></div>
         </nav>
     </header>
     <main>
@@ -151,7 +156,8 @@
             <a href="./answers/no.html" class="no">Нет, я сдам вас правительству! На Земле не место жителям Нибиру!</a>
         </p>
     </footer>
-    <a class="go_up" href="#"><i class="fas fa-arrow-circle-up"></i> Наверх</a>
+
+    <script src="./script/menu.js"></script>
 </body>
 
 </html>
