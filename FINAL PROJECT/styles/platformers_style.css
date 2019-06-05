@@ -2,6 +2,9 @@
 
 body {
     background-color: rgb(206, 206, 206);
+    margin: 0;
+    z-index: 0;
+    padding: 5px;
 }
 
 .header_h1 {
@@ -9,7 +12,7 @@ body {
     font-family: 'russo one';
 }
 
-.header_img {
+.header_image {
     background: url("https://cdn.pixabay.com/photo/2018/08/26/08/16/mario-3631666_960_720.png") 50% / cover no-repeat;
     width: 75vw;
     height: 50vw;
@@ -18,7 +21,7 @@ body {
     transition: 1.5s ease-in-out;
 }
 
-.header_img:hover {
+.header_image:hover {
     transform: scale(1.15);
     border-radius: 5%;
 }
@@ -49,7 +52,7 @@ body {
     background-color: #000;
     border-radius: 10px;
     color: whitesmoke;
-    padding: 10px;
+    padding: 5px;
     position: fixed;
     right: 0;
     top: 0;
@@ -178,6 +181,12 @@ p {
         background-color: rgba(0, 0, 0, 0);
     }
 
+    .menu_btn {
+        z-index: -1;
+        color: rgb(206, 206, 206);
+        background-color: rgb(206, 206, 206);
+    }
+
     .link {
         border-radius: 50px;
         width: 30vw;
@@ -185,7 +194,7 @@ p {
         margin-top: 5px;
     }
 
-    .header_img {
+    .header_image {
         width: 35vw;
         height: 25vw;
     }
