@@ -34,7 +34,7 @@
     color: white;
     border-radius: 10px;
     border: black solid 2px;
-    transition: 1s;
+    transition: 1s ease-in-out;
     margin: 3px;
     padding: 5px;
     width: 90%;
@@ -52,7 +52,7 @@
     border: solid 5px black;
     border-radius: 50%;
     background: rgba(54, 39, 39, 0.6);
-    transition: 3s;
+    transition: 3s ease-in-out;
 }
 
 .header_img:hover {
@@ -68,7 +68,7 @@
     border-radius: 10px;
     background: rgb(192, 207, 73);
     padding: 8px;
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 
 .art_text {
@@ -109,7 +109,7 @@
     border: 5px solid black;
     border-radius: 500px;
     object-fit: cover;
-    transition: 3s;
+    transition: 3s ease-in-out;
 }
 
 .gallery_img:hover {
@@ -131,7 +131,7 @@
     border-radius: 10px;
     background: rgb(149, 207, 73);
     padding: 8px;
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 
 .platformers_img {
@@ -194,7 +194,7 @@
         border: 15px solid black;
         border-radius: 500px;
         object-fit: cover;
-        transition: 3s;
+        transition: 3s ease-in-out;
     }
     
     .gallery_img:hover {

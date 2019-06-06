@@ -26,6 +26,10 @@ body {
     text-align: center;
 }
 
+.menu_img {
+    height: 45%;
+}
+
 .link {
     background-color: rgba(173, 255, 47, 50%);
     margin-bottom: 10px;
@@ -37,7 +41,7 @@ body {
     color: black;
     font-family: 'baloo chettan';
     font-size: 1.4rem;
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
     border: black 1px solid;
     display: block;
 }
@@ -50,7 +54,7 @@ body {
     border: 2px solid black;
     padding: 10px;
     margin: 10px;
-    transition: 1s;
+    transition: 1s ease-in-out;
     border-radius: 10px;
 }
 
@@ -168,7 +172,7 @@ p {
         width: 20vw;
         height: 20vw;
         border-radius: 50%;
-        transition: 1s;
+        transition: 1s ease-in-out;
     }
 
     .art_img:hover {
