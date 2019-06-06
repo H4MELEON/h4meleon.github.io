@@ -48,6 +48,7 @@ i {
     margin: 2px;
     z-index: 10000;
     font-size: 1.5rem;
+    border: 3px solid whitesmoke;
 }
 
 .go_up {
@@ -96,6 +97,7 @@ i {
 
     .menu_btn {
         z-index: -3;
+        border: none;
     }
 
     .go_up {
