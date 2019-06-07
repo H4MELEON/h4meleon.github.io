@@ -13,11 +13,11 @@ html,body {
 }
 
 .main_text {
-    font-weight: 900;
+    font-weight: 600;
     color: white;
     text-align: center;
     font-family: 'russo one';
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 0 3px;
 }
 
@@ -51,6 +51,10 @@ html,body {
     color: red;
 }
 
+.answer_yes_no {
+    color: yellow;
+}
+
 .go_back {
     font-weight: 900;
     color: white;
@@ -60,7 +64,7 @@ html,body {
 
 @media (min-width: 768px) {
     .main_text {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     .cry {
