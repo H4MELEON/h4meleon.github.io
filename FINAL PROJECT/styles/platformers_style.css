@@ -13,7 +13,7 @@ body {
     height: 50vw;
     border-radius: 25%;
     margin: auto;
-    transition: 1.5s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 .header_image:hover {
@@ -63,7 +63,7 @@ body {
     border: 2px solid black;
     padding: 10px;
     margin: 10px;
-    transition: 1s ease-in-out;
+    transition: 0.75s ease-in-out;
     border-radius: 10px;
 }
 
@@ -185,7 +185,7 @@ p {
         width: 20vw;
         height: 20vw;
         border-radius: 50%;
-        transition: 1s ease-in-out;
+        transition: 0.75s ease-in-out;
     }
 
     .art_img:hover {

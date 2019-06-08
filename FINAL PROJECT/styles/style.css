@@ -63,7 +63,7 @@ i {
     color: black;
     padding: 5px;
     border-radius: 10px;
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out;
     z-index: 10001;
 }
 
