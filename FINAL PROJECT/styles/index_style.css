@@ -175,6 +175,7 @@
     .link {
         font-size: 2rem;
         width: 45%;
+        border: 5px black solid;
     }
 
     .art {

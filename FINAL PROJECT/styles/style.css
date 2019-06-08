@@ -55,6 +55,7 @@ i {
     position: fixed;
     bottom: 0;
     right: 0;
+    font-family: 'russo one';
     border: 2px solid black;
     background-color: rgba(206, 30, 30, 0.85);
     margin: 5px;
