@@ -39,6 +39,7 @@ html,body {
 
 .cry {
     width: 100%;
+    display: block;
 }
 
 .answer_yes {
