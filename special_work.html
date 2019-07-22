@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Celebration</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Bad+Script|Lobster|Marck+Script|Pacifico|Press+Start+2P&display=swap');
+
+        body {
+            margin: 0;
+            background: black;
+        }
+
+        @keyframes rainbow {
+            from {
+                color: white;
+                text-shadow: 0 0 15px black;
+            }
+
+            12.5% {
+                color: rgb(255, 100, 100);
+                text-shadow: 0 0 15px rgb(165, 43, 165);
+            }
+
+            25% {
+                color: rgb(253, 198, 95);
+                text-shadow: 0 0 15px rgb(79, 79, 255);
+            }
+
+            37.5% {
+                color: rgb(255, 255, 103);
+                text-shadow: 0 0 15px rgb(89, 253, 253);
+            }
+
+            50% {
+                color: rgb(63, 196, 63);
+                text-shadow: 0 0 15px rgb(63, 196, 63);
+            }
+
+            62.5% {
+                color: rgb(89, 253, 253);
+                text-shadow: 0 0 15px rgb(255, 255, 103);
+            }
+
+            75% {
+                color: rgb(79, 79, 255);
+                text-shadow: 0 0 15px rgb(253, 198, 95);
+            }
+
+            87.5% {
+                color: rgb(165, 43, 165);
+                text-shadow: 0 0 15px rgb(255, 100, 100)
+            }
+
+            to {
+                color: black;
+                text-shadow: 0 0 15px white;
+            }
+        }
+
+        @keyframes stickers {
+            from,to {
+                background-image: url("https://h4meleon.github.io/resources/sticker_1.webp");
+            }
+
+            20% {
+                background-image: url("https://h4meleon.github.io/resources/sticker_2.webp");
+            }
+
+            40% {
+                background-image: url("https://h4meleon.github.io/resources/sticker_3.webp");
+            }
+
+            60% {
+                background-image: url("https://h4meleon.github.io/resources/sticker_4.webp");
+            }
+
+            80% {
+                background-image: url("https://h4meleon.github.io/resources/sticker_5.webp");
+            }
+        }
+
+        .text {
+            color: white;
+            text-align: center;
+            font-weight: 900;
+            animation: rainbow 8s ease-in-out infinite alternate;
+            letter-spacing: 3px;
+            text-shadow: 0 0 15px white;
+        }
+
+        .main_text {
+            font-size: 2.5rem;
+            font-family: 'Pacifico';
+        }
+
+        .dop_text {
+            font-size: 1.5rem;
+            font-family: 'Press Start 2P';
+        }
+
+        .slides {
+            width: 75%;
+            height: 100vw;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            animation: stickers 10s ease-in-out infinite normal;
+            background: black 50%/cover;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="text main_text">С</h1>
+    <h1 class="text main_text">ДНЁМ</h1>
+    <h1 class="text main_text">РОЖДЕНИЯ!</h1>
+    <p class="text dop_text">Пусть вероятности всегда благоволят тебе, а драконы будут лишь друзьями ;)</p>
+    <div class="slides"></div>
+</body>
+
+</html>
