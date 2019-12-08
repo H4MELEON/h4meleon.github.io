@@ -68,11 +68,11 @@ body {
 }
 
 .art1 {
-    background-color: rgba(255, 148, 0, 40%);
+    background-color: rgba(212, 146, 53, 0.4);
 }
 
 .art2 {
-    background-color: rgba(33, 17, 255, 40%);
+    background-color: rgba(65, 55, 202, 0.4);
 }
 
 .art_h2 {
@@ -167,7 +167,7 @@ p {
     }
     
     .art1:hover {
-        background-color: rgba(255, 148, 0, 40%);
+        background-color: rgba(212, 146, 53, 0.4);
         border: 2px solid black;
     }
     
@@ -177,7 +177,7 @@ p {
     }
     
     .art2:hover {
-        background-color: rgba(33, 17, 255, 40%);
+        background-color: rgba(65, 55, 202, 0.4);
         border: 2px solid black;
     }
 
